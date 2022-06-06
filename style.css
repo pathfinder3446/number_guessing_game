@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100vh;
+    background-image: url(./img/numbers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    background: linear-gradient(gray, white);
+    text-align: center;
+    margin: auto;
+    height: 70vh;
+    align-items: center;
+    width: 60%;
+    border-radius: 10px;
+   
+}
+
+h1{
+    margin: 1rem 0;
+    padding: 4px;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 4rem;
+    height: 1.5rem;
+}
+
+.input{
+    height: 1.3rem;
+    margin: 1rem 0 1rem;
+}
+
+.guessing{
+    margin: 3rem 0 4rem;
+}
+
+.attempts-section{
+    margin-top: 6.5rem;
+}
+
+.result{
+    color: red;
+    font-weight: 800;
+}
+
+.reBtn{
+    background-color: darkgreen;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 4px;
+    width: 8rem;
+    height: 1.5rem;
+
+}
