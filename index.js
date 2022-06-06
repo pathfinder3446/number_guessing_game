@@ -48,7 +48,7 @@ btn.addEventListener(`click`, () => {
 
         
         attempt.innerHTML = Number(attempt.innerHTML)+1;
-
+       
         console.log(guessNumber.value);
 
         if (tahmin > randomNumber) {
@@ -63,6 +63,9 @@ btn.addEventListener(`click`, () => {
         }
     }
 
+if (Number(attempt.innerHTML) > 5){
+    attempt.style.display = `none`;
+}
 
 if (live === 0 && tahmin != randomNumber) {
     console.log("Sorry, game over! 😔");
