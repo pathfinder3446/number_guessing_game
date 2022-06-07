@@ -86,7 +86,11 @@ window.addEventListener("load", (event) => {
     };
   });
 
-
+  guessNumber.addEventListener("keydown", (e) => {
+    if (e.keyCode === 13) {
+      btn.click();
+    }
+  });
 
            
 
